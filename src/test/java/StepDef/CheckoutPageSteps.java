@@ -14,7 +14,7 @@ public class CheckoutPageSteps {
     WebDriver driver;
     @Given("User opened google chrome browser")
     public void userOpenedGoogleChromeBrowser() {
-        System.setProperty("webdriver.chrome.driver", "/Users/rakagustipradana/automation/mifxProject-main/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/rakagustipradana/automation/jewees-project/driver/chromedriver");
         driver = new ChromeDriver();
     }
 
