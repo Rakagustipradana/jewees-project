@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>mifxProject</artifactId>
+    <artifactId>jewees-project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -74,7 +74,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>komunal-web-automation</projectName>
+                            <projectName>jewees-project</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
